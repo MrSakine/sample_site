@@ -7,6 +7,7 @@ body {
     position: relative;
     padding-bottom: 75px;
     min-height: 100%;
+    height: 100%;
 }
 
 li {
@@ -32,7 +33,7 @@ iframe {
 footer {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 75px;
     background-color: #251e19;
     margin: 0;
     padding: 0;
@@ -93,7 +94,7 @@ footer {
     padding: 50px 10% 30px;
 }
 
-.section_inner:nth-child(2) {
+body>section>article:nth-child(2) {
     background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
     background-attachment: fixed;
 }
@@ -248,22 +249,19 @@ li.recommend_coffee_content_sub img {
     margin-right: 10px;
     color: #fff;
     text-decoration: none;
-    text-decoration: none;
 }
 
 footer>p {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: stretch;
     color: #fff;
-    margin-top: 15px;
-    font-size: 13px;
-    margin-left: 10px;
-    margin-right: 30px;
+    font-size: 11px;
+    margin-top: 10px;
 }
 
 .footer_nav>a:nth-child(4)>li>img {
     width: auto;
-    height: 50px;
+    height: 30px;
     margin-top: 5px;
 }
